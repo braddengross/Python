@@ -11,7 +11,7 @@ except:
 try:
     rate = float(input("Please enter your pay rate: "))
 except:
-    print("rate must be a number")
+    print("rate must be a number!")
     quit()
 
 overtime_pay = 0
